@@ -9,3 +9,7 @@ print(colors)
 items = ["ручка", "олівець", "зошит"]
 items.pop()
 print(items)
+
+animals = ["кіт", "пес", "папуга"]
+print("пес" in animals)
+print("слон" in animals)  
