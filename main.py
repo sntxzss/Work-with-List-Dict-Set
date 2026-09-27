@@ -23,3 +23,32 @@ values = user.values()
 print(list(values))
 
 print(list(user.items()))
+
+numbers = [1, 2, 2, 3, 4, 4, 5]
+print(numbers)
+print(set(numbers))
+
+tasks = []
+def add_task():
+ task = tasks.append(input("Enter your task: "))
+ return task
+add_task()
+print(tasks)
+
+def delete_task():
+ delete = tasks.remove(input("Enter task you wanna delete: "))
+ return delete
+delete_task()
+print(tasks)
+
+def add_task():
+ task = tasks.append(input("Enter your task: "))
+ return task
+add_task()
+print(tasks)
+
+def find_task():
+ find = input("Enter task you want to find: ")
+ print(find in tasks)
+find_task()
+print(tasks)
