@@ -52,3 +52,13 @@ def find_task():
  print(find in tasks)
 find_task()
 print(tasks)
+
+numbers = [x ** 2 for x in range(10)]
+print(numbers)
+
+names = ["cat", "elephant", "dog", "mouse"]
+show = {name: len(name) for name in names}
+print(show)
+
+num = [x for x in range(15) if x % 2 == 0]
+print(num)
