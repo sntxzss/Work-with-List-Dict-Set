@@ -29,9 +29,9 @@ def ultimate_calculator():
         sys.stdout.write(f"[-] {step}\r")
         sys.stdout.flush()
         time.sleep(0.9)
-        print(f"[✔] {step} [Done!]")
+        print(f"[✔] {step} [Done]")
 
-    print("\nSynthesizing final mathematical solution....")
+    print("\nSynthesizing final mathematical solution...")
     time.sleep(1.5)
     
     print("\n" + "="*40)
