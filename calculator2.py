@@ -31,7 +31,7 @@ def ultimate_calculator():
         time.sleep(0.9)
         print(f"[✔] {step} [Done!]")
 
-    print("\nSynthesizing final mathematical solution...")
+    print("\nSynthesizing final mathematical solution....")
     time.sleep(1.5)
     
     print("\n" + "="*40)
