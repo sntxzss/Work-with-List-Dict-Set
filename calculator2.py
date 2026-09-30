@@ -36,7 +36,7 @@ def ultimate_calculator():
     
     print("\n" + "="*40)
     print("RESULT:")
-    print("Hello world!")
+    print("Hello world!!")
     print("="*40)
 
 if __name__ == "__main__":
