@@ -35,7 +35,7 @@ def ultimate_calculator():
     time.sleep(1.5)
     
     print("\n" + "="*40)
-    print("RESULT:")
+    print("RESULTS:")
     print("Hello world!!")
     print("="*40)
 
